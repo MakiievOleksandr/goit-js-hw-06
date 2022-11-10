@@ -12,5 +12,5 @@ buttonEl.addEventListener('click', onClickBtn);
 
 function onClickBtn(event) {
   bodyEl.style.backgroundColor = getRandomHexColor();
-  textEl.textContent = getRandomHexColor();
+  textEl.textContent = bodyEl.style.backgroundColor;
 }
